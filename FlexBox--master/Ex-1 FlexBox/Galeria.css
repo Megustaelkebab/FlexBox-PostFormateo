@@ -1,0 +1,27 @@
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.seccio{
+    display: flex;
+    min-width: 400px;
+    margin: 10px;
+    background-color: lightgray;
+    flex-direction: column;
+    box-shadow: 10px 10px 25px gray;
+}
+
+h2{
+    text-align: center;
+    color: #3498db;
+}
+
+img{
+    height: 150px;
+    background-color: #ecf0f1;
+    margin: 10px;
+
+}
